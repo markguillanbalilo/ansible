@@ -9,8 +9,6 @@
   with_items:
     - apache2
     - libapache2-mod-php
-    - mysql-client
-    - php
 
 - name: create /tmp/fefiles
   file:
