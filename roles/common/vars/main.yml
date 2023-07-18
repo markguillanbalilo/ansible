@@ -1,0 +1,12 @@
+---
+# vars file for common
+
+sshd_config_filepath: /etc/ansible/roles/common/files/sshd_config
+logrotate_filepath: /etc/ansible/roles/common/files/messages
+packages:
+  - wget
+  - unzip
+  - curl
+  - git
+  - jq
+

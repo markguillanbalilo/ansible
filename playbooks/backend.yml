@@ -1,0 +1,10 @@
+---
+- name: Backend playbook
+  connection: local
+  hosts: localhost
+  become: yes
+  roles:
+  - common
+  - createuser
+  - backend
+
