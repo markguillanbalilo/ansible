@@ -1,13 +1,13 @@
 ---
 
-- name: Add the user 'ansible' with a specific uid and a primary group of 'adm'
-  ansible.builtin.user:
-    name: ansible
-    comment: ansible
-    uid: 1042
-    shell: /bin/bash
-    groups: adm,sudo
-    append: yes
+#- name: Add the user 'ansible' with a specific uid and a primary group of 'adm'
+#  ansible.builtin.user:
+#    name: ansible
+#    comment: ansible
+#    uid: 1042
+#    shell: /bin/bash
+#    groups: adm,sudo
+#    append: yes
 
 
 - name: Add the user 'apple' with a specific uid and a primary group of 'ubuntu'
