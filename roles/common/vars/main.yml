@@ -1,6 +1,7 @@
 ---
 # vars file for common
 
+pem_filepath: /etc/ansible/roles/common/files/skillup-keypair-m.balilo.pem
 sshd_config_filepath: /etc/ansible/roles/common/files/sshd_config
 logrotate_filepath: /etc/ansible/roles/common/files/messages
 packages:
