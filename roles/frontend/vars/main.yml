@@ -1,4 +1,5 @@
 ---
 # vars file for frontend
+
 #frontend_filepath: /etc/ansible/roles/frontend/files/frontend.zip
 frontend_s3_filepath: s3://test-cot-skillup/frontend.zip
