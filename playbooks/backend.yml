@@ -5,6 +5,5 @@
   become: yes
   roles:
   - common
-  - createuser
   - backend
 
