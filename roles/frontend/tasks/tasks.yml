@@ -41,12 +41,6 @@
 - name: Change permission
   command: sudo chmod 666 /var/www/html/index.html
 
-- name: Change permission of shadow
-  command: sudo chmod 0400 /etc/shadow
-
-- name: Change permission of syslog
-  command: sudo chmod 0600 /var/log/syslog
-
 - name: Start apache
   service:
     name: apache2
