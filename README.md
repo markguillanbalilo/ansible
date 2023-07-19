@@ -9,7 +9,7 @@ Instance type: t2.micro
 
 Tags:
 
-Name = <Server Name>
+Name = <server_name>
 
 ansible_role = <bastion, frontend, backend>
 
